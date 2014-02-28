@@ -5,20 +5,23 @@ How to use
   class Organization
     include Turnt
 
-    def name
-      "Turnt"
-    end
-
-    def employes
-    end
+    attr_accessor :name, employes
   end
 
 So you can call:
 
-  Organization.has_name? # => true
-  Organization.has_employes? # => false
+  tux = Organization.new
+  tux.has_name? # => false
+  tux.has_employes? # => false
 
-This works with methods and attributes!
+Now, I will set values to name
+
+  tux = Organization.new
+  tux.name = "Tux!"
+  tux.has_name? # => true
+  tux.has_employes? # => false
+
+This works with methods!
 
 
 == Contributing to turnt
