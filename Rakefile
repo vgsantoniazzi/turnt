@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "turnt"
   gem.homepage = "http://github.com/vgsantoniazzi/turnt"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Organization.has_name?"
+  gem.description = "A gem for check if attribute has value."
   gem.email = "vgsantoniazzi@gmail.com"
   gem.authors = ["Victor Antoniazzi"]
   # dependencies defined in Gemfile
