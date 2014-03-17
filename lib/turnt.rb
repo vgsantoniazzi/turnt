@@ -1,6 +1,6 @@
 module Turnt
   def method_missing(method, *args)
-    super(method, *args) unless has?(method) || methods.include?(method)
+    super(method, *args) unless has?(method)
     @method = method; @value = send(instance_method); validate_data_types!
   end
 
