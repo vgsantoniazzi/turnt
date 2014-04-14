@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.1.11"
-  s.summary = "Organization.has_name?"
+  s.summary = "Organization.new.has_name?"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
