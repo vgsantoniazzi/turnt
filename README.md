@@ -6,14 +6,15 @@ Test if an attribute was setted.
 
 From rubygems:
 
-```
+```ruby
 gem install turnt
 ```
 
 Gemfile
 
-```
+```ruby
 gem "turnt"
+```
 
 
 ## Usage
@@ -43,6 +44,7 @@ tux.name = "Tux!"
 tux.has_name? # => true
 tux.has_employes? # => false
 ```
+
 This works with methods!
 
 ## Contributing
@@ -52,6 +54,10 @@ I :heart: Open source!
 [Follow github guides for forking a project](https://guides.github.com/activities/forking/)
 
 [Follow github guides for contributing open source](https://guides.github.com/activities/contributing-to-open-source/#contributing)
+
+## Code Status
+
+[![Build Status](https://travis-ci.org/vgsantoniazzi/turnt.svg?branch=master)](https://travis-ci.org/vgsantoniazzi/turnt)
 
 ## License
 
