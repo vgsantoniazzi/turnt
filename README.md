@@ -24,7 +24,7 @@ How to use
 class Organization
   include Turnt
 
-  attr_accessor :name, employes
+  attr_accessor :name, :employes
 end
 ```
 
